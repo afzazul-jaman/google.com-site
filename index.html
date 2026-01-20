@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Injection Demo (Safe)</title>
+  <style>
+    body { font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <h1>google hacked by 0xAssy</h1>
+
+  <!-- Imagine this content came from a URL/path parameter -->
+  <div id="user-input">
+    <!-- injected content would appear here if not sanitized -->
+  </div>
+
+  <p>
+    Lesson: user input must be HTML-escaped before rendering.
+  </p>
+</body>
+</html>
